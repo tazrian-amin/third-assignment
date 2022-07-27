@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-img::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.slider-caption {
+    bottom: 125px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.slider-caption h5 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.btn-color {
+    background-color: rgba(40, 155, 222, 1);
+}

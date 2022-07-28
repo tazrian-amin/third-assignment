@@ -21,7 +21,7 @@
         <!-- navbar starts -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand fs-3 fw-bold" href="#">Devs Edu</a>
+                <a class="navbar-brand fs-1 fw-bolder" href="#">Devs Edu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -97,7 +97,7 @@
     </header>
     <main class="container mt-5">
         <!-- course section starts -->
-        <section class="container py-5">
+        <section class="container mt-5">
             <h2 class="text-center fw-bold">Discover Our Popular <br>Courses</h2>
             <p class="text-center text-muted">It is a long established fact that a reader will be distracted by the
                 readable <br>
@@ -196,7 +196,7 @@
         <!-- course section ends -->
 
         <!-- optional section-1 starts -->
-        <section class="container mt-3 py-5">
+        <section class="container mt-5">
             <div class="card mb-3 border-0">
                 <div class="row g-0">
                     <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
@@ -326,7 +326,7 @@
         <!-- bonus section ends -->
 
         <!-- optional section-2 starts -->
-        <section class="container mt-5 py-5">
+        <section class="container mt-5">
             <h2 class="fw-bold">Meet Our Successful <br>Students</h2>
             <p class="text-muted">
                 It is a long established fact that a reader will be distracted by the <br>readable content of a page
@@ -384,7 +384,7 @@
         <!-- optional section-2 ends -->
 
         <!-- optional section-3 starts -->
-        <section class="container py-5">
+        <section class="container mt-5">
             <h2 class="text-center fw-bold">Some Students Feedback</h2>
             <p class="text-center text-muted">It is a long established fact that a reader will be distracted by the
                 readable <br>
@@ -474,7 +474,7 @@
         <!-- optional section-3 ends -->
 
         <!-- FAQ section starts -->
-        <section class="container py-4">
+        <section class="container mt-5">
             <h2 class="text-center fw-bold pb-3">Frequently Asked Questions</h2>
             <p class="text-center text-muted">It is a long established fact that a reader will be distracted by the
                 readable <br>
@@ -492,12 +492,37 @@
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <table class="table table-striped align-middle">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th scope="col">SL.</th>
+                                            <th scope="col">Flexbox</th>
+                                            <th scope="col">Grid</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Flexible Box Model, also known as Flexbox, is a one dimensional layout
+                                                model (either row or column).</td>
+                                            <td>Grid is a multi dimensional layout model (both row and column).</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>It is a content-first model, that is- it focuses on the content flow.
+                                            </td>
+                                            <td>It is a layout-first model, that is- it focuses on the content
+                                                placement.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>It can be used for scaling, one-sided aligning, and organizing elements
+                                                within a container.</td>
+                                            <td>It is more useful when we want to work on a large-scale layout with more
+                                                complex and subtle designs.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -511,12 +536,36 @@
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <table class="table table-striped align-middle">
+                                    <thead>
+                                        <tr class="text-center">
+                                            <th scope="col">Bootstrap</th>
+                                            <th scope="col">Tailwind CSS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bootstrap is a free and open-source CSS framework directed at
+                                                responsive, mobile-first front-end web development.</td>
+                                            <td>Tailwind CSS is a utility-first CSS framework for rapidly building
+                                                custom designs.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>It is a powerful framework with lots of pre-styled components that
+                                                provide a responsive UI (user interface) kit.
+                                            </td>
+                                            <td>It is a powerful framework that provides unparallel scopes for a
+                                                designer to build a website from scratch using the utility classes.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>It is helpful for building responsive websites in short time with
+                                                considerable
+                                                designs.</td>
+                                            <td>It is more suitable for decorating websites with custom designs without
+                                                worrying about overriding any css property.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -530,12 +579,11 @@
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>There are two types of box in HTML- <strong>Inline Box</strong> and <strong>Block
+                                        Box</strong>. <br>
+                                    The CSS box model defines how the different parts like — margin, border, padding,
+                                    and content — work
+                                    together to create a <strong>block box</strong> in HTML.</p>
                             </div>
                         </div>
                     </div>
@@ -549,12 +597,13 @@
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <p>In programming, <strong>Semantics</strong> refers to the meaning of a piece of code -
+                                    for example "What role or purpose does an HTML element have?" <br>
+                                    So, by <strong>Semantic Tags</strong>, we understand that these tags have meaningful
+                                    names by which we can understand the purpose of using an element in HTML. <br>
+                                    Semantic tags are widely used in HTML5 which allows the coder to easily track
+                                    different parts of an HTML file with its purpose.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -565,7 +614,7 @@
         <!-- FAQ section ends -->
 
         <!-- trusted company's section starts -->
-        <section class="d-none d-md-none d-lg-block container my-5">
+        <section class="d-none d-md-none d-lg-block container mt-5">
             <h2 class="text-center fw-bold">Trusted by over 800+ companies</h2>
             <div class="mt-5 d-flex align-items-center justify-content-evenly">
                 <div><img height="20px" width="120px" src="images/company/company-1.png" alt=""></div>
@@ -588,7 +637,7 @@
         crossorigin="anonymous"></script>
 </body>
 <!-- footer section -->
-<footer class="text-center text-white d-flex align-items-center justify-content-center">
+<footer class="mt-5 text-center text-white d-flex align-items-center justify-content-center">
     <div>
         <h1 class="fw-bolder">Devs Edu</h1>
         <p>

@@ -190,7 +190,7 @@
 
             <!-- view all button -->
             <div class="mt-5 d-flex align-items-center justify-content-center">
-                <button class="btn btn-color text-white fw-semibold px-4 py-2">View All</button>
+                <button class="btn btn-outline-primary opacity-75 fw-semibold px-4 py-2">View All</button>
             </div>
         </section>
         <!-- course section ends -->
@@ -228,13 +228,102 @@
                                     <p class="text-muted">Rating & Review</p>
                                 </div>
                             </div>
-                            <button class="btn btn-color text-white fw-semibold mt-2 px-4 py-2">Read More</button>
+                            <button class="btn btn-outline-primary opacity-75 fw-semibold mt-2 px-4 py-2">Read
+                                More</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- optional section-1 ends -->
+
+        <!-- bonus section starts -->
+        <section class="container p-5 btn-color rounded mt-5">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <div class="text-white text-center text-md-center text-lg-start">
+                        <h2 class="fw-bold">Ready to join?</h2>
+                        <p>It is a long established fact that a reader will be distracted by the
+                            readable content of a
+                            page when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light fw-semibold mt-2 px-4 py-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" style="color:rgba(40, 155, 222, 1);">Register Now</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Register Form</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="firstName" class="form-label">First Name</label>
+                                            <input type="text" class="form-control" aria-label="First name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="lastName" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" aria-label="Last name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">New Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label">Address</label>
+                                            <input type="text" class="form-control" id="inputAddress">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputCity" class="form-label">City</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputState" class="form-label">State</label>
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Choose...</option>
+                                                <option>...</option>
+                                                <option>Florida</option>
+                                                <option>California</option>
+                                                <option>Hawaii</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="inputZip" class="form-label">Zip</label>
+                                            <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Accept <a href="">terms & conditions</a>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bonus section ends -->
     </main>
     <!-- javascript link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
